@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 
 selected = option_menu(None, ["Home", "Experiencia", "Educación", "Proyectos", "Habilidades", "Idiomas"],
     icons=['house', 'briefcase', 'mortarboard', 'clipboard-data', 'gear', 'translate'], 
-    default_index=0) 
+    default_index=0, orientation="horizontal") 
 
 
 if selected == "Home":
