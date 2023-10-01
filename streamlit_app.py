@@ -1,9 +1,12 @@
 import streamlit as st
+import streamlit_option_menu
+print(streamlit_option_menu.__file__)
 from streamlit_option_menu import option_menu
+
 
 selected = option_menu(None, ["Home", "Experiencia", "Educación", "Proyectos", "Habilidades", "Idiomas"],
     icons=['house', 'briefcase', 'mortarboard', 'clipboard-data', 'gear', 'translate'], 
-    default_index=0, orientation="horizontal") 
+    default_index=0) 
 
 
 if selected == "Home":
