@@ -67,6 +67,12 @@ elif selected == "Habilidades":
 
   st.header("Habilidades Técnicas")
 
+  st.write("- Python, FastAPI, Bases de Datos SQL, APIs REST, Autenticación JWT, Opencv")  
+  st.write("- HTML, CSS, JavaScript, Bootstrap")
+  st.write("- Programación asíncrona con generadores")
+  st.write("- Documentación y comentarios de código")
+  st.write("- Deployment seguro de aplicaciones")
+
   st.write("- Python, Flask, MySQL, REST, OpenCV")
   st.write("- HTML, CSS, JavaScript, Bootstrap")
   st.write("- PHP, C/C++, Java")
