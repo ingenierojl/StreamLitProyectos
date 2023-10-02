@@ -4,7 +4,7 @@ print(streamlit_option_menu.__file__)
 from streamlit_option_menu import option_menu
 
 
-selected = option_menu(None, ["Home", "Experience", "Education", "Projects", "Skills--", "Language"],
+selected = option_menu(None, ["Home", "Experience", "Education", "Projects", "Skills", "Language"],
     icons=['house', 'briefcase', 'mortarboard', 'clipboard-data', 'gear', 'translate'], 
     default_index=0, orientation="horizontal") 
 
