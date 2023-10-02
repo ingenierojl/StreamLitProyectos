@@ -35,7 +35,7 @@ elif selected == "Experiencia":
   
 elif selected == "Educación":
 
-  st.header("Educación")
+  st.header("Education")
 
   st.write("- Ingeniería Electrónica - UDEC, Cundinamarca (Jul 2011)")
   
@@ -63,7 +63,7 @@ elif selected == "Proyectos":
   - Integración con plataforma externa mediante API.
   """)
   
-elif selected == "Habilidades":
+elif selected == "Skills":
 
   st.header("Habilidades Técnicas")
 
