@@ -36,7 +36,7 @@ elif button_labels[selected_index] == "Experience":
   
 elif button_labels[selected_index] == "Education":
     st.header("Education")
-    st.write("- Electrical Engineering - UDEC, Cundinamarca (Jul 2011)")
+    st.write("- Electronic Engineering - UDEC, Cundinamarca (Jul 2011)")
   
 elif button_labels[selected_index] == "Projects":
     st.header("Projects")
