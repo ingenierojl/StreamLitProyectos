@@ -3,84 +3,82 @@ import streamlit_option_menu
 print(streamlit_option_menu.__file__)
 from streamlit_option_menu import option_menu
 
-
-selected = option_menu(None, ["Home", "Experience", "Education", "Projects", "Skills", "Language"],
+selected = option_menu(None, ["Home", "Experience", "Education", "Projects", "Skills", "Languages"],
     icons=['house', 'briefcase', 'mortarboard', 'clipboard-data', 'gear', 'translate'], 
     default_index=0, orientation="horizontal") 
-
 
 if selected == "Home":
 
   st.header("Jorge L. Rojas")
 
-  st.subheader("Ingeniero electrónico y desarrollador de software.")
+  st.subheader("Electrical Engineer and Software Developer.")
 
-  st.write("Carrera 57 # 80 – 85 Apto 524 Unidad Sta. María del Campo Itagüí-Antioquia.")
+  st.write("Carrera 57 # 80 – 85 Apt 524 Sta. María del Campo Unit Itagüí-Antioquia.")
   st.write("+57 3008079369")
   st.write("ingenierorojas87@gmail.com")
   
-elif selected == "Experiencia":
+elif selected == "Experience":
 
-  st.header("Experiencia")
+  st.header("Experience")
   
   st.write("""
-  **Profesor de programación** - SENA CTM, Medellín (Ene 2017 - Dic 2018)
+  **Programming Teacher** - SENA CTM, Medellín (Jan 2017 - Dec 2018)
   
-  - Enseñanza de diferentes lenguajes de programación a estudiantes.
+  - Teaching various programming languages to students.
   
-  **Administrador de TICs** - SENA SALUD, Medellín (Jul 2011 - Dic 2016) 
+  **ICT Administrator** - SENA SALUD, Medellín (Jul 2011 - Dec 2016) 
   
-  - Gestión de elementos tecnológicos necesarios para la enseñanza.
+  - Management of technological elements necessary for teaching.
   """)
   
-elif selected == "Educación":
+elif selected == "Education":
 
   st.header("Education")
 
-  st.write("- Ingeniería Electrónica - UDEC, Cundinamarca (Jul 2011)")
+  st.write("- Electrical Engineering - UDEC, Cundinamarca (Jul 2011)")
   
-elif selected == "Proyectos":
+elif selected == "Projects":
 
-  st.header("Proyectos")
+  st.header("Projects")
 
   st.write("""
-  **CAMA TELE-OPERADA POR COMANDOS DE VOZ** 
+  **VOICE-CONTROLLED HOSPITAL BED** 
   
-  - Aplicación de control frontend y backend para operar una cama hospitalaria por voz.
-  - App móvil Android que usa API de reconocimiento de voz en Kotlin.
-  - Módulo Bluetooth en la cama para comunicación serial con Arduino.
+  - Frontend and backend control application for voice-operated hospital bed.
+  - Android mobile app using voice recognition API in Kotlin.
+  - Bluetooth module on the bed for serial communication with Arduino.
   
-  **SERVIDOR DE TELE-EDUCACIÓN**
+  **TELE-EDUCATION SERVER**
   
-  - Servidor en Linux para transmisión de audio, video y señales médicas.
-  - Desarrollado en Python, C++, HTML y CSS.
-  - Enfocado en tele-educación y telemedicina.
+  - Linux server for audio, video, and medical signal transmission.
+  - Developed in Python, C++, HTML, and CSS.
+  - Focused on tele-education and telemedicine.
   
-  **SISTEMA DE CONTROL DE ACCESO** 
+  **ACCESS CONTROL SYSTEM** 
   
-  - Prototipo de control de acceso con lectores de huella y tarjetas RFID.
-  - Conexión a bases de datos MySQL.
-  - Integración con plataforma externa mediante API.
+  - Prototype access control with fingerprint readers and RFID cards.
+  - Connection to MySQL databases.
+  - Integration with external platform through API.
   """)
   
 elif selected == "Skills":
 
-  st.header("Habilidades Técnicas")
+  st.header("Technical Skills")
 
-  st.write("- Python, FastAPI, Bases de Datos SQL, APIs REST, Autenticación JWT, Opencv")  
+  st.write("- Python, FastAPI, SQL Databases, REST APIs, JWT Authentication, OpenCV")  
   st.write("- HTML, CSS, JavaScript, Bootstrap")
-  st.write("- Programación asíncrona con generadores")
-  st.write("- Documentación y comentarios de código")
-  st.write("- Deployment seguro de aplicaciones")
+  st.write("- Asynchronous Programming with Generators")
+  st.write("- Code Documentation and Comments")
+  st.write("- Secure Application Deployment")
 
   st.write("- Python, Flask, MySQL, REST, OpenCV")
   st.write("- HTML, CSS, JavaScript, Bootstrap")
   st.write("- PHP, C/C++, Java")
-  st.write("- Ensamblador para Motorola PIC")
+  st.write("- Assembly Language for Motorola PIC")
   
-elif selected == "Idiomas":
+elif selected == "Languages":
 
-  st.header("Idiomas")
+  st.header("Languages")
   
-  st.write("- Español: Nativo")
-  st.write("- Inglés: Intermedio")
+  st.write("- Spanish: Native")
+  st.write("- English: Intermediate")
