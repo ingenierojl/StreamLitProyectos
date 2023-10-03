@@ -12,7 +12,7 @@ selected_index = button_labels.index(option_menu(None, button_labels, icons=butt
 
 # Si el botón seleccionado es "Skills", establecer el ancho a 100%
 if button_labels[selected_index] == "Skills":
-    st.write('<style>div[data-testid="stHorizontalBlock"] > div:nth-child(5) {width: 100%;}</style>', unsafe_allow_html=True)
+    st.write('<style>div[data-testid="stHorizontalBlock"] > div:nth-child(5) {width: 100%; display: flex; flex-direction: column; align-items: center;}</style>', unsafe_allow_html=True)
 
 # Verificar el botón seleccionado y mostrar el contenido correspondiente
 if button_labels[selected_index] == "Home":
