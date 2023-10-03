@@ -8,7 +8,7 @@ button_labels = ["Home", "Experience", "Education", "Projects", "Skills", "Langu
 button_icons = ['house', 'briefcase', 'mortarboard', 'clipboard-data', 'gear', 'translate']
 
 # Obtener el índice del botón seleccionado
-selected_index = option_menu(None, button_labels, icons=button_icons, default_index=0, orientation="horizontal")
+selected_index = button_labels.index(option_menu(None, button_labels, icons=button_icons, default_index=0, orientation="horizontal"))
 
 # Si el botón seleccionado es "Skills", establecer el ancho a 100%
 if button_labels[selected_index] == "Skills":
@@ -36,7 +36,7 @@ elif button_labels[selected_index] == "Experience":
   
 elif button_labels[selected_index] == "Education":
     st.header("Education")
-    st.write("- Electronic Engineering - UDEC, Cundinamarca (Jul 2011)")
+    st.write("- Electrical Engineering - UDEC, Cundinamarca (Jul 2011)")
   
 elif button_labels[selected_index] == "Projects":
     st.header("Projects")
