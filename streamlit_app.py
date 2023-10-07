@@ -40,24 +40,32 @@ elif button_labels[selected_index] == "Education":
   
 elif button_labels[selected_index] == "Projects":
     st.header("Projects")
+
     st.write("""
-    **VOICE-CONTROLLED HOSPITAL BED** 
-  
+    **MOBILE DEVELOPMENT**
+    - Developed mobile applications using Kotlin and Java.  
+    - Gained experience in UI design and implementation.
+
+    **RASPBERRY PI PROJECTS**
+    - Created projects involving electronic signal processing and actuators controlled by Raspberry Pi devices.
+    - Focused on integrating hardware and software solutions.  
+
+    **VOICE-CONTROLLED HOSPITAL BED**  
     - Frontend and backend control application for voice-operated hospital bed.
     - Android mobile app using voice recognition API in Kotlin.
     - Bluetooth module on the bed for serial communication with Arduino.
-  
+
     **TELE-EDUCATION SERVER**
-  
-    - Linux server for audio, video, and medical signal transmission.
-    - Developed in Python, C++, HTML, and CSS.
+    - Linux server for audio, video, and medical signal transmission.  
+    - Developed in Python, C++, HTML, and CSS. 
     - Focused on tele-education and telemedicine.
-  
-    **ACCESS CONTROL SYSTEM** 
-  
-    - Prototype access control with fingerprint readers and RFID cards.
-    - Connection to MySQL databases.
-    - Integration with external platform through API.
+
+    **TECHNOLOGY CONSULTING** 
+    - Provided guidance to students on developing projects involving fingerprint scanning, QR codes, web development (HTML/CSS/JS), and electronic prototyping using languages like Python, PHP, C/C++.
+
+    **FULL STACK DEVELOPMENT**
+    - Developed full stack solutions integrating frontend interfaces in HTML/CSS/JS with Python backends connected to MySQL databases.
+    - Experience building scalable and dynamic web applications and APIs.
     """)
   
 elif button_labels[selected_index] == "Skills":
