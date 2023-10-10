@@ -125,6 +125,8 @@ elif button_labels[selected_index] == "Skills":
     st.write("- GIT Versions control")
     st.write("- Code Documentation and Comments")
     st.write("- Secure Application Deployment")
+    st.write("- Environment and Package Management: Conda")
+    
 
   with col3:
     st.write("")
