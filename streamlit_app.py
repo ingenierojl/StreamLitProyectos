@@ -18,9 +18,24 @@ if button_labels[selected_index] == "Skills":
 if button_labels[selected_index] == "Home":
     st.header("Jorge L. Rojas")
     st.subheader("Electrical Engineer and Software Developer.")
-    st.write("Carrera 57 # 80 – 85 Apt 524 Sta. María del Campo Unit Itagüí-Antioquia.")
-    st.write("+57 3008079369")
-    st.write("ingenierorojas87@gmail.com")
+   # Agregar la imagen y especificar el ancho
+    profile_pic = st.image("pic/pic-.png", width=250) 
+
+    # Centrar los elementos usando columns y expandir a pantalla completa
+    col1, col2, col3 = st.columns([1,3,1])
+
+    with col1:
+        st.write("")
+
+    with col2:
+        st.write("Carrera 57 # 80 – 85 Apt 524 Sta. María del Campo Unit Itagüí-Antioquia.")
+        st.write("+57 3008079369")
+        st.write("ingenierorojas87@gmail.com")
+
+    with col3:
+        st.write("")
+    
+        st.write("") # Espacio adicional abajo
   
 elif button_labels[selected_index] == "Experience":
     st.header("Experience")
