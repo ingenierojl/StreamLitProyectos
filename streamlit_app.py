@@ -21,16 +21,17 @@ if button_labels[selected_index] == "Home":
   with col2:
     st.title("Jorge L. Rojas")
     st.subheader("Electronics Engineer and Software Developer")
-    profile_pic = st.image("pic/pic-.png", width=250)
-    st.write("Carrera 57 # 80 – 85 Apt 524 Sta. María del Campo Unit Itagüí-Antioquia.")
-    st.write("+57 3008079369")
-    st.write("ingenierorojas87@gmail.com")
-
+    profile_pic = st.image("pic/pic-.png", width=300)
     st.write("I am an electronics engineer with a passion for both programming and hardware. I thrive on continuously updating my knowledge and skills to stay at the forefront of technology.")
     st.write("I am highly proactive and enjoy tackling challenges head-on. When faced with obstacles, I take them personally until I find a solution, just like debugging in programming.")
     st.write("In addition to my technical skills, I also have experience as an educator. I have a background in developing projects and providing academic and technical guidance, making me well-rounded in both academic and practical aspects.")
 
-    # Agregar más información si es necesario.
+
+    st.write("Carrera 57 # 80 – 85 Apt 524 Sta. María del Campo Itagüí-Antioquia.")
+    st.write("+57 3008079369")
+    st.write("ingenierorojas87@gmail.com")
+
+        # Agregar más información si es necesario.
 
   with col3:
     st.write("")
