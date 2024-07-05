@@ -44,17 +44,20 @@ elif button_labels[selected_index] == "Experience":
   with col2:
     st.title("Experience")
     st.write("""
-     **Programming Teacher (Media Técnica)** - Secretaría de Educación, Medellín (Abr 2018 - Actualidad)
+    **Software Developer** - Syspotec (Dec 15, 2023 - Jan 15, 2024)
+    - Developed modules for an air energy company using Angular, C# and SQL Server.
+    - Developed modules for Aire company.
+
+    **Programming Teacher (Media Técnica)** - Secretaría de Educación, Medellín (Apr 2018 - Present)
     - Instructing students in grades 10 and 11 in various programming languages.
-    - Providing guidance and support for different software development projects.         
+    - Providing guidance and support for different software development projects.
 
     **Programming Teacher** - SENA CTM, Medellín (Jan 2017 - Dec 2018)
-     - Teaching various programming languages to students.
+    - Teaching various programming languages to students.
 
-    **Administrator TIC** - SENA SALUD, Medellín (Jul 2011 - Dec 2016)  
+    **Administrator TIC** - SENA SALUD, Medellín (Jul 2011 - Dec 2016)
     - Management of technological elements necessary for teaching.
-  
-    """)
+""")
 
 
   with col3:  
